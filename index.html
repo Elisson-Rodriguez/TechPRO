@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechPRO Audifonos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="imagen-header">
+          <picture>
+            <source
+              sizes="1920w"
+              srcset="./img/header.avif"
+              type="image/avif "
+            />
+            <source
+              sizes="1920w"
+              srcset="./img/header.webp"
+              type="image/webp "
+            />
+            <source
+              sizes="1920w"
+              srcset="./img/header.jpeg"
+              type="image/jpeg "
+            />
+            <img
+              loading="lazy"
+              src="./img/header.png"
+              width="1000"
+              height="600"
+              alt="Imagen"
+            />
+          </picture>
+        </div>
+
+        <div class="texto-header">
+          <p class="tagline-producto">Sonido Profesional</p>
+          <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+          <p class="descripcion-producto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            quis enim! Odit voluptatem, minima aspernatur molestias, dolore aut
+            sed aperiam vero maxime nobis eveniet optio accusantium. Possimus,
+            aperiam? Obcaecati, quidem?
+          </p>
+          <p class="precio-producto">Desde <span>$299</span></p>
+        </div>
+      </div>
+    </header>
+
+    <section class="listado-detalles contenedor">
+      <div class="detalle">
+        <img src="./img/icono-sonido.svg" alt="icono-sonido" />
+        <h2>Gran Sonido</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
+          excepturi saepe error quos est repudiandae tempore porro consequatur
+          fugiat doloribus. Enim natus libero ex mollitia! Accusantium odit
+          dolorum dolor perferendis.
+        </p>
+      </div>
+      <div class="detalle">
+        <img src="./img/icono-garantia.svg" alt="icono-garantia" />
+        <h2>Garantía de por vida</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          voluptate quam eius neque necessitatibus sint? Inventore maxime fugit
+          impedit ad optio illum, vel commodi sequi deserunt, animi reiciendis,
+          dicta dolore.
+        </p>
+      </div>
+      <div class="detalle">
+        <img src="./img/icono-bateria.svg" alt="icono-bateria" />
+        <h2>+20 Horas de bateria</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          voluptate quam eius neque necessitatibus sint? Inventore maxime fugit
+          impedit ad optio illum, vel commodi sequi deserunt, animi reiciendis,
+          dicta dolore.
+        </p>
+      </div>
+    </section>
+
+    <section class="sobre-tech">
+      <div class="contenedor sobre-tech-grid">
+        <div class="texto-sobre-tech">
+          <h2>Sobre los <span>TechPRO</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, fugit
+            beatae ipsa nulla numquam blanditiis incidunt quia quam consectetur
+            illo illum tenetur cupiditate perferendis labore ea voluptas hic?
+            Libero, voluptate.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <h1 class="text-center degradado-verde">Elige tus TechPRO</h1>
+      <div class="listado-audifonos contenedor">
+        <!-- Primer Modelo de Audifonos -->
+        <div class="modelos modelo-z">
+          <div class="text-audifonos">
+            <h3>TechPRO Z</h3>
+            <p>$499</p>
+          </div>
+          <div>
+            <img src="./img/modelo-z.svg" alt="TechPRO Model Z" />
+          </div>
+        </div>
+        <!-- Segundo Modelo de Audifonos -->
+        <div class="modelos modelo-y">
+          <div class="text-audifonos">
+            <h3>TechPRO Y</h3>
+            <p>$499</p>
+          </div>
+          <div>
+            <img src="./img/modelo-y.svg" alt="TechPRO Model Y" />
+          </div>
+        </div>
+        <!-- Tercer Modelo de Audifonos -->
+        <div class="modelos modelo-x">
+          <div class="text-audifonos">
+            <h3>TechPRO X</h3>
+            <p>$499</p>
+          </div>
+          <div>
+            <img src="./img/modelo-x.svg" alt="TechPRO Model X" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
